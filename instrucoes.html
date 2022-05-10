@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções</title>
+    <link rel="shortcut icon" href="/static/pca.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+    <body>
+        <header>
+            <div class = "center">
+                <div class = "menu">
+                    <a href="http://127.0.0.1:5000" rel = "next" target="_self">Início</a>
+                    <a href="http://127.0.0.1:5000/explicacao_pca" rel = "next" target="_self">O que é o PCA?</a>
+                    <a href="http://127.0.0.1:5000/instrucoes" rel = "next" target="_self">Instruções</a>
+                    <a href="http://127.0.0.1:5000/autor" rel = "next" target="_self">Autor</a>
+                </div>
+            </div>
+        </header>
+            <div class = "center">
+                <div class = "texto-sobre">
+                    <h1>Instruções</h1>
+            <p>Selecione seu arquivo .xlsx e clique em "Enviar". Será assumido que este arquivo contém uma primeira coluna que represente algum identificador, por isso será excluída do dataset.</p>
+            <p>Em seguida, escolha a forma de visualizar a distribuição dos dados, pelos botões "Distribuição Pairplot" ou "Distribuição Barplot". O botão "Distribuição Pairplot", que pode ser acessado também por /dist_pairplot na URL, gera um gráfico do tipo "pairplot", enquanto "Distribuição Barplot" (ou /dist_barplot) permite-lhe que digite o nome da variável desejada e ao clicar em "Enviar" abrirá um gráfico de barras com a frequência de cada valor naquela variável. Para visualização dos componentes principais em relação à variância explicada, clique em "Variância explicada" (ou /var_explicada). Serão plotados os componentes principais que atinjam um valor menor ou igual a 95% da variância explicada acumulada.</p>
+            <p>A aplicação possui uma aba denominada "O que é o PCA?" (/explicacao_pca), a fim de fornecer informações a respeito da Análise de Componentes Principais. Também encontram-se informações sobre o autor da aplicação na aba "Autor" (/autor).</p>
+            <p>Possivelmente durante a execução da aplicação, alguns recursos visuais podem não aparecer na tela. Recomenda-se que a página seja recarregada até o aparecimento.</p>
+        </div>
+    </div>
+    </body>
+</html>
